@@ -384,7 +384,8 @@ body {
   width: 575px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
+  /*? padding-bottom: 34px; */
 }
 
 .filters-list {
