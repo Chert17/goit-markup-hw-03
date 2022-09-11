@@ -236,7 +236,6 @@ body {
 
 .work-list {
   display: flex;
-  /* flex-wrap: wrap; */
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -277,7 +276,9 @@ body {
 }
 
 .team-list .text {
+  padding-top: 15px;
   padding-right: 15px;
+  padding-bottom: 15px;
   padding-left: 15px;
   text-align: center;
 }
@@ -397,11 +398,6 @@ body {
   list-style: none;
 }
 
-/*? .filters-list .item {
-  width: calc((100% - 32px) / 5);
-  margin-right: 8px;
-} */
-
 .filters-list .item {
   margin-right: 8px;
 }
@@ -446,16 +442,20 @@ body {
 }
 
 .portfolio-list .text {
+  padding-top: 15px;
   padding-right: 15px;
+  padding-bottom: 15px;
   padding-left: 15px;
+
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .portfolio-list .item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-
-  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-list .item:nth-child(3n) {
