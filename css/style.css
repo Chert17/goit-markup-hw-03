@@ -281,7 +281,7 @@ body {
 }
 
 .team-list .text {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-right: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
@@ -300,10 +300,6 @@ body {
 
 .team-list .item:nth-child(4n) {
   margin-right: 0;
-}
-
-.team-list .image {
-  margin-bottom: 30px;
 }
 
 .team-list .title {
